@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ArrayTest::test_array_without_data":4,"ArrayTest::test_array_with_data":3,"toolTest::test_unique_with_interger":4,"toolTest::test_email":4},"times":{"ArrayTest::test_array_without_data":0,"ArrayTest::test_array_with_data":0.001,"toolTest::test_unique_with_interger":0.006,"toolTest::test_unique_with_text":0,"toolTest::test_email":0.001}}
