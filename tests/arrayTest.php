@@ -1,5 +1,7 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
+
 class ArrayTest extends TestCase
 {
     /*un archivo de pruebas requiere de que se importe el elemento PHPUnit\Framework\TestCase; y ademas extender de ella 
@@ -7,7 +9,7 @@ class ArrayTest extends TestCase
     todo eso seria lo mas importante a nivel de estructura
     y tambien es muy importante que cada metodo cuente con una afirmacion "assertEmpty" 
     el testins se basa en las asfirmaciones nosotros tenemos que afirmar que estamos recibiendo el resultado esperado
-    affirmar significa que nosotros estamos afirmando un resultado*/ 
+    affirmar significa que nosotros estamos afirmando un resultado*/
     public function test_array_without_data()
     {
         $users = [];
@@ -16,9 +18,8 @@ class ArrayTest extends TestCase
 
     public function test_array_with_data()
     {
-        $users =['user_1', 'user_2'];
+        $users = ['user_1', 'user_2'];
 
-        $this->assertNotEmpty($users);/*afirmaciones*/ 
-
+        $this->assertNotEmpty($users);/*afirmaciones*/
     }
 }
